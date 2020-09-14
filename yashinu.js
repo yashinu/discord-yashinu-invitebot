@@ -4,6 +4,7 @@ const { botOwner, botPrefix, botToken, guildID, botVoiceChannelID, inviteChannel
 const guildInvites = new Map();
 const mongoose = require('mongoose');
 mongoose.connect('', {useNewUrlParser: true, useUnifiedTopology: true});// Mongo connect linki
+// Yashinu tarafından kodlanmıştır.
 
 client.on("ready", async () => {
   client.user.setPresence({ activity: { name: durum }, status: "dnd" });
